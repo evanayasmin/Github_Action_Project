@@ -4,7 +4,7 @@ jobs:
   first_workflow: 
   runs-on: ubuntu-latest
   steps:
-        -name: Manual Workflow
+        - name: Manual Workflow
         run: |
               echo "Please accept to run this script";
               
