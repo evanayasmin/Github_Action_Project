@@ -1,10 +1,10 @@
 name: Manual action 
 on: workflow_dispatch
 jobs:
-  first_workflow: 
-  runs-on: ubuntu-latest
-  steps:
+    first_workflow: 
+    runs-on: ubuntu-latest
+    steps:
         - name: Manual Workflow
         run: |
-              echo "Please accept to run this script";
+          echo "Please allow this automation"
               
