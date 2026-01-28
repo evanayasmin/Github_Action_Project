@@ -1,7 +1,7 @@
 name: Manual action 
 on: workflow_dispatch
 jobs:
-    first_workflow: 
+    manual_workflow: 
     runs-on: ubuntu-latest
     steps:
         - name: Manual Workflow
