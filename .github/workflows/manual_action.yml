@@ -1,10 +1,14 @@
-name: Manual action 
-on: workflow_dispatch
+name: Manual Workflow
+
+on:
+  workflow_dispatch:
+
 jobs:
-    manual_workflow: 
+  manual-workflow:
     runs-on: ubuntu-latest
+
     steps:
-        - name: Manual Workflow
+      - name: First manual step
         run: |
-          echo "Please allow this automation"
-              
+          echo "Hello, World!"
+          echo "Hello Again!"
