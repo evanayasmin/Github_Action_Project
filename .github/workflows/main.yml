@@ -1,13 +1,2 @@
-name: First Workflow
-on: 
-    push: 
-    braches:  
-            -main
-    jobs:   
-          first-workflow: 
-                          runs on: ubuntu latest
-                          steps: 
-                                -name: "First Workflow Run" 
-                                run: |
-                                      echo"Hellow World!"
+
     
